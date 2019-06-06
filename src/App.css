@@ -4,22 +4,39 @@
   border-radius: 0 !important;
 }
 
+body, html {
+  background: #FAFFD1;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to top, #FAFFD1, #A1FFCE);  Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to bottom, #FAFFD1, #A1FFCE); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 li {
   list-style-type: none;
   margin: 1px 0;
 }
 
 button {
-  background-color: rgb(213, 39, 183) !important;
+  border: 1px solid white !important;
+}
+
+button:focus {
+  background-color: #FAFFD1 !important;
+  color: black !important;
+}
+
+button:visited {
+  background-color: #FAFFD1 !important;
+  color: black !important;
 }
 
 button:hover {
-  background-color: #f0c8fa !important;
+  background-color: #FAFFD1 !important;
+  color: black !important;
 }
 
 .wrapper {
   height: 100vh;
-  padding: 3vh 0;
+  /* padding: 3vh 0; */
   font-family: 'Source Sans Pro', sans-serif;
   display: grid;
   grid-template-areas: "title title"
@@ -32,19 +49,32 @@ button:hover {
 .title {
   grid-area: title;
   font-family: 'Lobster', cursive;
+  color: palevioletred;
   text-align: left;
+  padding: 10px 5%
 }
 
 .sidebar {
   grid-area: sidebar;
   padding: 4vh 5%;
-  border-right: black solid 4px;
-  border-top: black solid 4px;
+  border-right: black solid 3px;
+  border-top: black solid 3px;
+  background-color: palevioletred;
 }
 
+/* Main Content */
 #content {
   grid-area: content;
-  border-top: black solid 4px;
+  border-top: black solid 3px;
   padding: 4vh 5%;
+}
+
+.content-header {
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+#content-background-link {
+  margin-bottom: 15px;
 }
 

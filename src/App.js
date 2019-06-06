@@ -16,34 +16,19 @@ class App extends React.Component {
   // Handles the text generation for each author
   // --------------------------------------------
   contentHandler(id) {
-
-    // Intertextuality Node
-    const p = document.createElement("p")
-    p.setAttribute("id", "intertextuality")
-    let text = document.createTextNode(content[id].intertextuality)
+    // Episodes Node
+    let p = document.createElement("p")
+    p.setAttribute("id", "episodes")
+    const episodes = `Aires on Season ${content[id].seasons}, Episode ${content[id].episodes}`
+    let text = document.createTextNode(episodes)
     p.appendChild(text)
 
-    let parent = document.getElementById("content-text")
-    if (document.getElementById("intertextuality")) {
-      const current = document.getElementById("intertextuality")
+    let parent = document.getElementById("content-episodes")
+    if (document.getElementById("episodes")) {
+      const current = document.getElementById("episodes")
       parent.replaceChild(p, current)
     } else {
       parent.appendChild(p)
-    }
-
-    // Episodes Node
-    const h3 = document.createElement("h3")
-    h3.setAttribute("id", "episodes")
-    const episodes = `Aires on Season ${content[id].seasons}, Episode ${content[id].episodes}`
-    text = document.createTextNode(episodes)
-    h3.appendChild(text)
-
-    parent = document.getElementById("content-episodes")
-    if (document.getElementById("episodes")) {
-      const current = document.getElementById("episodes")
-      parent.replaceChild(h3, current)
-    } else {
-      parent.appendChild(h3)
     }
 
     // Background Node
@@ -61,115 +46,144 @@ class App extends React.Component {
     } else {
       parent.appendChild(link)
     }
+
+    // Intertextuality Node
+    p = document.createElement("p")
+    p.setAttribute("id", "intertextuality")
+    text = document.createTextNode(content[id].intertextuality)
+    p.appendChild(text)
+
+    parent = document.getElementById("content-text")
+    if (document.getElementById("intertextuality")) {
+      const current = document.getElementById("intertextuality")
+      parent.replaceChild(p, current)
+    } else {
+      parent.appendChild(p)
+    }
   }
 
   render() {
     return (
       <div className="App">
-        <div className="container-fluid">
-          <div className="wrapper">
-            <h1 className="title">Jane the Virgin</h1>
-            <div className="sidebar">
-              <ul>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("gruesz", e)}>
-                    Kirsten Gruesz
+        {/* <div className="container-fluid"> */}
+        <div className="wrapper">
+          <h1 className="title"><span>&#128378;&#127996;</span>Jane the Virgin<span>&#128131;&#127996;</span></h1>
+          <div className="sidebar">
+            <ul>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("gruesz", e)}>
+                  Kirsten Gruesz
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("kanellos", e)}>
-                    Nicolas Kanellos
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("kanellos", e)}>
+                  Nicolas Kanellos
                     </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("allende", e)}>
-                    Isabel Allende
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("allende", e)}>
+                  Isabel Allende
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("marquez", e)}>
-                    Gabriel Garcia Marquez
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("marquez", e)}>
+                  Gabriel Garcia Marquez
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("martin", e)}>
-                    Gerald Martin
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("martin", e)}>
+                  Gerald Martin
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("borges", e)}>
-                    Jorge Luis Borges
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("borges", e)}>
+                  Jorge Luis Borges
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("martin-rodriguez", e)}>
-                    Manuel Martin-Rodriguez
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("martin-rodriguez", e)}>
+                  Manuel Martin-Rodriguez
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("lugo-lugo", e)}>
-                    Carmen Lugo-Lugo
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("lugo-lugo", e)}>
+                  Carmen Lugo-Lugo
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("castro-klaren", e)}>
-                    Sara Castro-Klaren
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("castro-klaren", e)}>
+                  Sara Castro-Klaren
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("lichter-amundson", e)}>
-                    Robert Lichter & Daniel Amundson
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("lichter-amundson", e)}>
+                  Robert Lichter & Daniel Amundson
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("nussbaum", e)}>
-                    Emily Nussbaum
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("nussbaum", e)}>
+                  Emily Nussbaum
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("itzkoff", e)}>
-                    Dave Itzkoff
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("itzkoff", e)}>
+                  Dave Itzkoff
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("johnson", e)}>
-                    Carroll Johnson
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("johnson", e)}>
+                  Carroll Johnson
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("waugh", e)}>
-                    Patricia Waugh
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("waugh", e)}>
+                  Patricia Waugh
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("martin-barbero", e)}>
-                    Jesus Martin-Barbero
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("martin-barbero", e)}>
+                  Jesus Martin-Barbero
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("rincon", e)}>
-                    Omar Rincon
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("rincon", e)}>
+                  Omar Rincon
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("pinon", e)}>
-                    Juan Pinon
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("pinon", e)}>
+                  Juan Pinon
                   </Button>
-                </li>
-                <li>
-                  <Button outline style={{ color: "black", backgroundColor: "rgb(213, 39, 183)" }} block onClick={(e) => this.contentHandler("erlick", e)}>
-                    June Carolyn Erlick
+              </li>
+              <li>
+                <Button outline style={{ color: "white" }} block onClick={(e) => this.contentHandler("erlick", e)}>
+                  June Carolyn Erlick
                   </Button>
-                </li>
-              </ul>
-            </div>
-            <div id="content">
+              </li>
+            </ul>
+          </div>
+          <div id="content">
+            <div>
+              <div>
+                <h4 className="content-header"><span>&#128250;</span> Episodes:</h4>
+              </div>
               <div id="content-episodes"></div>
+            </div>
+            <div>
+              <div>
+                <h4 className="content-header"><span>&#128221;</span> Background:</h4>
+              </div>
               <div id="content-background-link"></div>
+            </div>
+            <div>
+              <div>
+                <h4 className="content-header"><span>&#128293;</span> Intertextuality:</h4>
+              </div>
               <div id="content-text"></div>
             </div>
           </div>
         </div>
+        {/* </div> */}
       </div>
     );
   }
