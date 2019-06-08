@@ -34,10 +34,10 @@ class App extends React.Component {
     // Background Node
     const link = document.createElement("a")
     link.setAttribute("id", "link")
-    text = document.createTextNode("Isabel Allende - Aphrodite")
+    text = document.createTextNode(`${content[id].backgroundTitle}`)
     link.appendChild(text)
-    link.title = "Isabel Allende - Aphrodite"
-    link.href = "https://www.isabelallende.com/en/book/aphrodite"
+    link.title = `${content[id].backgroundTitle}`
+    link.href = `${content[id].background}`
 
     parent = document.getElementById("content-background-link")
     if (document.getElementById("link")) {
@@ -67,7 +67,7 @@ class App extends React.Component {
       <div className="App">
         {/* <div className="container-fluid"> */}
         <div className="wrapper">
-          <h1 className="title"><span>&#128378;&#127996;</span>Jane the Virgin<span>&#128131;&#127996;</span></h1>
+          <h1 className="title"><span role="img" aria-label="man-dancing">&#128378;&#127996;</span>Jane the Virgin<span role="img" aria-label="woman-dancing">&#128131;&#127996;</span></h1>
           <div className="sidebar">
             <ul>
               <li>
@@ -165,19 +165,19 @@ class App extends React.Component {
           <div id="content">
             <div>
               <div>
-                <h4 className="content-header"><span>&#128250;</span> Episodes:</h4>
+                <h4 className="content-header"><span role="img" aria-label="tv">&#128250;</span> Episodes:</h4>
               </div>
               <div id="content-episodes"></div>
             </div>
             <div>
               <div>
-                <h4 className="content-header"><span>&#128221;</span> Background:</h4>
+                <h4 className="content-header"><span role="img" aria-label="notepad">&#128221;</span> Background:</h4>
               </div>
               <div id="content-background-link"></div>
             </div>
             <div>
               <div>
-                <h4 className="content-header"><span>&#128293;</span> Intertextuality:</h4>
+                <h4 className="content-header"><span role="img" aria-label="fire">&#128293;</span> Intertextuality:</h4>
               </div>
               <div id="content-text"></div>
             </div>

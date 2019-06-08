@@ -20,23 +20,22 @@ button {
 }
 
 button:focus {
-  background-color: #FAFFD1 !important;
+  background-color: white !important;
   color: black !important;
 }
 
 button:visited {
-  background-color: #FAFFD1 !important;
+  background-color: white !important;
   color: black !important;
 }
 
 button:hover {
-  background-color: #FAFFD1 !important;
+  background-color: white !important;
   color: black !important;
 }
 
 .wrapper {
   height: 100vh;
-  /* padding: 3vh 0; */
   font-family: 'Source Sans Pro', sans-serif;
   display: grid;
   grid-template-areas: "title title"
