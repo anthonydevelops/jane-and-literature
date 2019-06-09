@@ -7,9 +7,9 @@ export const content = {
         backgroundTitle: "Aphrodite - A Memoir of the Senses"
     },
     "gruesz": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
         background: "",
         backgroundTitle: ""
     },
@@ -21,107 +21,107 @@ export const content = {
         backgroundTitle: "Recovering the US Hispanic Literary Heritage"
     },
     "marquez": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 4,
+        episodes: 11,
+        intertextuality: "In Marquez’s writing “A Very Old Man With Enormous Wings”, he shows various elements of magical realism, which is the genre of mixing reality with magic, such as an old man having great, angelic wings, or a woman with half of her body being that of a spider. These types of elements, which are not natural to reality, are also shown in Jane the Virgin. In many episodes across the seasons, we see Jane talk to her alter egos or see magical stars appear as if they’re dazzling over people. This is a form of magical realism, in which the show tries to use these elements to highlight thoughts, people, and situations. With Marquez’s writing, although he tells a story of amazing phenomena happening within the village, he is actually discussing how magical realism is often presented and then forgotten about until another new element comes into a scene. The same can be understood by Jane the Virgin, where we often forget what form of magical realism was happening, since the next element would come into play shortly after. Magical realism is often short lived for an audience, but plays an important part in Latin American literature.",
         background: "https://www.ndsu.edu/pubweb/~cinichol/CreativeWriting/323/MarquezManwithWings.htm",
         backgroundTitle: "Very Old Man With Enormous Wings"
     },
     "martin": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
         background: "",
         backgroundTitle: ""
     },
     "borges": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
         background: "http://hispanlit.qwriting.qc.cuny.edu/files/2011/06/Borges-Pierre-Menard.pdf",
         backgroundTitle: "Pierre Menard"
     },
     "martin-rodriguez": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "In Martin-Rodriguez’s writing, “Life in Search of Readers”, he tells us how writers of Mexican American literature came to be without much guidance or a set path to follow. There would be overlap of who was the true first writer, issues dealing with how to expose their work to a more universal audience, as well as developing a system of exchange so that other readers of Mexican American descent could read works created from people within their culture. In particular, the issue that came up in Martin-Rodriguez’s piece dealing with how to correctly expose Mexican American culture in a way a universal audience would understand, also occurred in Jane the Virgin. Jane would be constantly battling within herself and with her advisor how to correctly tell the story of her novel in a way that not only captivates the audience, but helps them understand many specific points and situations that they might not have ever experienced themselves. We would witness her internal dialogue and strife that would occur anytime she was frustrated or had a new idea of how to retell or add on to her story.",
         background: "",
         backgroundTitle: ""
     },
     "lugo-lugo": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
         background: "",
         backgroundTitle: ""
     },
     "castro-klaren": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
         background: "",
         backgroundTitle: ""
     },
     "lichter-amundson": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
         background: "",
         backgroundTitle: ""
     },
     "nussbaum": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
         background: "",
         backgroundTitle: ""
     },
     "itzkoff": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
         background: "",
         backgroundTitle: ""
     },
     "johnson": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
         background: "",
         backgroundTitle: ""
     },
     "waugh": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
         background: "",
         backgroundTitle: ""
     },
     "martin-barbero": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
         background: "",
         backgroundTitle: ""
     },
     "rincon": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
         background: "",
         backgroundTitle: ""
     },
     "pinon": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
         background: "",
         backgroundTitle: ""
     },
     "erlick": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
         background: "",
         backgroundTitle: ""
     }
