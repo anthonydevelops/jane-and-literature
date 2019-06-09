@@ -10,8 +10,8 @@ export const content = {
         seasons: 0,
         episodes: 0,
         intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
-        background: "",
-        backgroundTitle: ""
+        background: "https://press.princeton.edu/titles/7199.html",
+        backgroundTitle: "Latina/o American Literature"
     },
     "kanellos": {
         seasons: 0,
@@ -31,8 +31,8 @@ export const content = {
         seasons: 0,
         episodes: 0,
         intertextuality: "The Authors that were worked on for the final project were Kanellos, Allende, Marquez, and Martin-Rodriguez. More will be updated later on (:",
-        background: "",
-        backgroundTitle: ""
+        background: "https://www.amazon.com/Companion-Latin-American-Literature-Culture/dp/1118492145",
+        backgroundTitle: "Latin American Literature and Culture"
     },
     "borges": {
         seasons: 0,
@@ -45,8 +45,8 @@ export const content = {
         seasons: 0,
         episodes: 0,
         intertextuality: "In Martin-Rodriguez’s writing, “Life in Search of Readers”, he tells us how writers of Mexican American literature came to be without much guidance or a set path to follow. There would be overlap of who was the true first writer, issues dealing with how to expose their work to a more universal audience, as well as developing a system of exchange so that other readers of Mexican American descent could read works created from people within their culture. In particular, the issue that came up in Martin-Rodriguez’s piece dealing with how to correctly expose Mexican American culture in a way a universal audience would understand, also occurred in Jane the Virgin. Jane would be constantly battling within herself and with her advisor how to correctly tell the story of her novel in a way that not only captivates the audience, but helps them understand many specific points and situations that they might not have ever experienced themselves. We would witness her internal dialogue and strife that would occur anytime she was frustrated or had a new idea of how to retell or add on to her story.",
-        background: "",
-        backgroundTitle: ""
+        background: "https://books.google.com/books/about/Life_in_Search_of_Readers.html?id=m2USUaupIxkC&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false",
+        backgroundTitle: "Life in Search of Readers"
     },
     "lugo-lugo": {
         seasons: 0,
