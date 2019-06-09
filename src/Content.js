@@ -14,9 +14,9 @@ export const content = {
         backgroundTitle: ""
     },
     "kanellos": {
-        seasons: 1,
-        episodes: 1,
-        intertextuality: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        seasons: 0,
+        episodes: 0,
+        intertextuality: "In Kanellos’ writing “Recovering the US Hispanic Literary Heritage”, he explains how the work of Latinos was often erased or completely forgotten, despite Latinos participating in every facet of American culture, helping shape what it has become today. This is primarily due to political and racial reasons, where pieces of work were often selected to be the “original” source, if the name in question was not that of a non-traditional, colored last name. These sources that were coined the “original” sources often would be the pieces that would be included in schools, libraries and museums. This type of erasure of credit towards an author’s work is similar to that of ghostwriting, which Jane in Jane the Virgin was at one point doing for Petra. Jane was paid by Petra to be her author, but Jane would have no credit within the source of the book that would be printed. It would be Petra who would be shown as the author, even though Petra did not do the writing. Ghostwriting is inherently similar to that of how Latino’s pieces of work has been erased or forgotten about by American culture, often due to how Latino pieces would be foundational to the creation of other pieces that would become preferred sources of text within a traditional American setting.",
         background: "https://www.mlajournals.org/doi/abs/10.1632/pmla.2012.127.2.371",
         backgroundTitle: "Recovering the US Hispanic Literary Heritage"
     },

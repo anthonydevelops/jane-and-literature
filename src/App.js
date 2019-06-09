@@ -65,7 +65,6 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        {/* <div className="container-fluid"> */}
         <div className="wrapper">
           <h1 className="title"><span role="img" aria-label="man-dancing">&#128378;&#127996;</span>Jane the Virgin<span role="img" aria-label="woman-dancing">&#128131;&#127996;</span></h1>
           <div className="sidebar">
@@ -183,7 +182,6 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-        {/* </div> */}
       </div>
     );
   }
